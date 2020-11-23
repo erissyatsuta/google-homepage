@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html>
     <link href="styles/main.css" rel="stylesheet">
+    <head>
+        <meta charset="utf-8">
+    </head>
     <body>
         <header>
-            <ul>
-                <li class="nav-li"><a href="#">Gmail</a></li>
-                <li class="nav-li"><a href="#">Images</a></li>
-                <li class="nav-li"><a href="#"><img id="apps-icon" src="images/apps-icon.png"></a></li>
+            <ul id="header-panel">
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Images</a></li>
+                <li><a href="#"><img id="apps-icon" src="images/apps-icon.png"></a></li>
+                <li><a href="#"><img id="account-picture" src="images/account-picture.png"></a></li>
             </ul>
         </header>
-
-        <content>
-            <img src="images/googlelogo.png" alt="Google Logo">
-            <form id="search-bar">
-                <input id="search-text-field" type="text" required>
-                <div id="search-buttons">
-                    <button>Google Search</button>
-                    <button>I'm Feeling Lucky</button>
-                </div>
+        <main>
+            <img src="images/google-logo.png" alt="Google Logo">
+            <form id=search-bar>
+                <img id="magnifying-glass" src="images/magnifying-glass.png">
+                <input type="text">
             </form>
-        </content>
-
+            <div id="search-buttons">
+                <button>Google Search</button>
+                <button>I'm Feeling Lucky</button>
+            </div>
+        </main>
         <footer>
             <hr>
-            <ul>
-                <li class="footer-li"><a href="#">Russia</a></li>
-            </ul>
+            <p>Russia</p>
             <hr>
-            <ul>
-                <li class="footer-li"><a href="#">Privacy</a></li>
-                <li class="footer-li"><a href="#">Terms</a></li>
-                <li class="footer-li"><a href="#">Settings</a></li>
-            </ul>
+            <div id="footer-lower-panel">
+                <ul>
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">How Search works</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a style="margin-right: 27px;" href="#">Settings</a></li>
+                </ul>
+            </div>
         </footer>
     </body>
 </html>
